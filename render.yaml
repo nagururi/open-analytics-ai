@@ -1,0 +1,79 @@
+services:
+  # Ollama LLM inference engine — private service, not publicly reachable.
+  # Needs enough RAM to load your chosen model (see notes at bottom).
+  - type: pserv
+    name: analytics-ollama
+    runtime: image
+    image:
+      url: docker.io/ollama/ollama:latest
+    plan: standard
+    envVars:
+      - key: OLLAMA_KEEP_ALIVE
+        value: 24h
+    disk:
+      name: ollama-data
+      mountPath: /root/.ollama
+      sizeGB: 10
+
+  # FastAPI backend — builds from backend/Dockerfile.
+  - type: web
+    name: analytics-backend
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: OLLAMA_BASE_URL
+        fromService:
+          name: analytics-ollama
+          type: pserv
+          property: hostport
+      - key: DEFAULT_MODEL
+        value: qwen2.5:1.5b
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "false"
+      - key: ALLOWED_ORIGINS
+        value: '["https://analytics-frontend.onrender.com"]'
+    disk:
+      name: backend-data
+      mountPath: /app/data
+      sizeGB: 1
+
+  # React frontend — static site, built with Vite.
+  - type: web
+    name: analytics-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://analytics-backend.onrender.com/api
+
+# ---------------------------------------------------------------------------
+# NOTES (read before deploying):
+#
+# 1. Model size vs plan: `standard` (2GB RAM) fits qwen2.5:1.5b comfortably.
+#    If you switch DEFAULT_MODEL to something bigger (e.g. llama3.1, ~8B),
+#    bump analytics-ollama's plan to `pro` (4GB) or higher, or it will get
+#    OOM-killed exactly like it did locally.
+#
+# 2. Pull the model after first deploy: Render doesn't run `ollama pull`
+#    automatically. After analytics-ollama's first deploy finishes, open its
+#    Shell tab in the Render dashboard and run:
+#       ollama pull qwen2.5:1.5b
+#    This only needs to happen once — the model persists on the disk.
+#
+# 3. Predictable URLs: this file assumes your services keep the exact names
+#    above, so their public URLs are https://analytics-backend.onrender.com
+#    and https://analytics-frontend.onrender.com. If Render appends a random
+#    suffix (only happens if those names are already taken workspace-wide),
+#    update ALLOWED_ORIGINS and VITE_API_URL to match the real URLs shown in
+#    the dashboard, then trigger a manual redeploy of backend and frontend.
+#
+# 4. First login: the app ships with a default admin/admin123 login baked
+#    into the backend — change this before sharing the URL with anyone else.
+# ---------------------------------------------------------------------------

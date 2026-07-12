@@ -1,0 +1,501 @@
+case_id,report_date,drug_name,adverse_event,severity,outcome,patient_age_group,patient_gender,country,reporter_type,time_to_onset_days,is_serious,dose_mg
+AE-00001,2023-08-02,DrugDelta 200mg,Fatigue,Severe,Unknown,46-60,Male,Japan,Patient,62,0,75
+AE-00002,2020-08-16,DrugEpsilon 75mg,Hypertension,Severe,Recovered,46-60,Female,UK,Physician,170,1,100
+AE-00003,2020-02-21,DrugGamma 25mg,Vomiting,Mild,Fatal,18-30,Female,Germany,Pharmacist,76,0,200
+AE-00004,2021-07-17,DrugEpsilon 75mg,Dizziness,Moderate,Recovering,75+,Male,Canada,Manufacturer,170,0,75
+AE-00005,2021-05-16,DrugEpsilon 75mg,Nausea,Severe,Recovering,61-75,Female,India,Physician,13,0,50
+AE-00006,2021-04-02,DrugBeta 100mg,Fatigue,Mild,Recovering,75+,Male,USA,Physician,11,1,50
+AE-00007,2020-10-12,DrugGamma 25mg,Hypertension,Mild,Recovered,31-45,Female,UK,Pharmacist,54,0,75
+AE-00008,2020-07-28,DrugGamma 25mg,Dizziness,Mild,Unknown,61-75,Female,Japan,Patient,16,0,75
+AE-00009,2023-10-17,DrugGamma 25mg,Hypertension,Mild,Unknown,46-60,Female,India,Physician,8,0,200
+AE-00010,2023-01-21,DrugEpsilon 75mg,Abdominal Pain,Severe,Recovering,61-75,Male,Canada,Manufacturer,104,1,50
+AE-00011,2020-06-27,DrugDelta 200mg,Fatigue,Severe,Not Recovered,46-60,Female,Australia,Physician,59,0,75
+AE-00012,2023-04-24,DrugGamma 25mg,Dizziness,Mild,Recovering,46-60,Female,Australia,Manufacturer,57,1,75
+AE-00013,2022-05-14,DrugEpsilon 75mg,Bradycardia,Mild,Recovered,61-75,Male,Japan,Other HCP,40,0,200
+AE-00014,2020-03-06,DrugBeta 100mg,Rash,Mild,Recovering,46-60,Female,USA,Other HCP,130,1,200
+AE-00015,2020-03-02,DrugDelta 200mg,Rash,Mild,Recovering,46-60,Male,USA,Manufacturer,94,1,100
+AE-00016,2020-07-10,DrugBeta 100mg,Dizziness,Severe,Recovering,31-45,Female,Canada,Patient,138,0,200
+AE-00017,2021-03-23,DrugDelta 200mg,Hypertension,Mild,Not Recovered,75+,Male,UK,Physician,44,0,25
+AE-00018,2021-04-21,DrugEpsilon 75mg,Fatigue,Mild,Recovered,75+,Female,Canada,Physician,139,0,50
+AE-00019,2022-10-31,DrugAlpha 50mg,Rash,Mild,Recovered,31-45,Female,France,Other HCP,80,0,100
+AE-00020,2023-05-17,DrugDelta 200mg,Fatigue,Moderate,Recovered,61-75,Male,USA,Manufacturer,81,1,25
+AE-00021,2020-02-24,DrugBeta 100mg,Rash,Mild,Recovered,18-30,Male,India,Physician,2,0,75
+AE-00022,2023-02-23,DrugEpsilon 75mg,Abdominal Pain,Moderate,Not Recovered,18-30,Male,France,Physician,178,0,75
+AE-00023,2021-02-11,DrugDelta 200mg,Hypertension,Mild,Recovering,18-30,Male,Australia,Patient,140,0,100
+AE-00024,2023-08-23,DrugAlpha 50mg,Abdominal Pain,Severe,Recovering,31-45,Male,Australia,Pharmacist,115,1,200
+AE-00025,2023-12-07,DrugAlpha 50mg,Rash,Moderate,Recovered,31-45,Female,Germany,Other HCP,90,0,75
+AE-00026,2023-01-21,DrugGamma 25mg,Bradycardia,Mild,Recovering,46-60,Male,Japan,Other HCP,23,0,150
+AE-00027,2022-05-09,DrugGamma 25mg,Bradycardia,Moderate,Recovered,18-30,Male,France,Pharmacist,146,0,100
+AE-00028,2021-03-27,DrugBeta 100mg,Abdominal Pain,Severe,Recovered,61-75,Female,Japan,Physician,62,1,25
+AE-00029,2022-07-08,DrugDelta 200mg,Bradycardia,Severe,Not Recovered,61-75,Male,Canada,Patient,113,1,100
+AE-00030,2023-04-21,DrugDelta 200mg,Rash,Moderate,Fatal,18-30,Female,France,Patient,128,0,50
+AE-00031,2021-07-23,DrugGamma 25mg,Dizziness,Moderate,Recovered,18-30,Female,Canada,Other HCP,62,0,200
+AE-00032,2020-01-14,DrugDelta 200mg,Abdominal Pain,Severe,Recovered,18-30,Female,Germany,Patient,38,0,200
+AE-00033,2020-11-22,DrugDelta 200mg,Headache,Moderate,Recovered,31-45,Female,USA,Pharmacist,166,0,100
+AE-00034,2023-11-30,DrugAlpha 50mg,Hypertension,Mild,Recovered,31-45,Female,Australia,Physician,61,1,75
+AE-00035,2022-05-15,DrugGamma 25mg,Bradycardia,Severe,Recovering,31-45,Male,Germany,Pharmacist,129,1,75
+AE-00036,2021-11-27,DrugEpsilon 75mg,Bradycardia,Mild,Recovered,75+,Male,Australia,Manufacturer,173,0,150
+AE-00037,2021-07-23,DrugGamma 25mg,Nausea,Moderate,Recovering,61-75,Male,USA,Other HCP,156,1,150
+AE-00038,2020-11-14,DrugEpsilon 75mg,Vomiting,Mild,Recovered,61-75,Female,Canada,Patient,149,0,200
+AE-00039,2021-03-16,DrugAlpha 50mg,Abdominal Pain,Mild,Recovered,46-60,Male,USA,Manufacturer,122,1,150
+AE-00040,2021-11-20,DrugBeta 100mg,Insomnia,Mild,Recovered,31-45,Female,Australia,Patient,110,1,25
+AE-00041,2020-07-28,DrugDelta 200mg,Bradycardia,Severe,Recovered,75+,Unknown,Australia,Physician,13,0,150
+AE-00042,2020-07-08,DrugAlpha 50mg,Hypertension,Mild,Recovered,75+,Female,Japan,Physician,155,1,25
+AE-00043,2022-02-17,DrugDelta 200mg,Headache,Mild,Recovered,61-75,Female,India,Physician,100,0,150
+AE-00044,2020-07-17,DrugBeta 100mg,Bradycardia,Mild,Not Recovered,31-45,Male,Germany,Patient,135,0,200
+AE-00045,2022-01-05,DrugBeta 100mg,Headache,Moderate,Recovered,46-60,Female,France,Manufacturer,22,0,200
+AE-00046,2021-12-05,DrugAlpha 50mg,Rash,Life-threatening,Unknown,31-45,Female,Australia,Physician,74,0,25
+AE-00047,2023-05-21,DrugBeta 100mg,Rash,Moderate,Recovered,18-30,Male,Germany,Manufacturer,132,1,100
+AE-00048,2021-06-25,DrugEpsilon 75mg,Vomiting,Moderate,Not Recovered,31-45,Male,Japan,Patient,23,1,200
+AE-00049,2020-03-29,DrugBeta 100mg,Dizziness,Severe,Recovering,18-30,Female,USA,Manufacturer,119,1,100
+AE-00050,2022-07-29,DrugDelta 200mg,Insomnia,Moderate,Not Recovered,18-30,Female,Japan,Patient,70,1,75
+AE-00051,2023-01-03,DrugDelta 200mg,Nausea,Mild,Not Recovered,46-60,Female,UK,Patient,84,1,25
+AE-00052,2020-09-12,DrugDelta 200mg,Vomiting,Mild,Recovering,61-75,Female,UK,Other HCP,101,0,200
+AE-00053,2022-02-14,DrugDelta 200mg,Fatigue,Mild,Recovering,31-45,Female,France,Patient,84,0,50
+AE-00054,2020-06-10,DrugEpsilon 75mg,Nausea,Mild,Recovering,18-30,Female,Japan,Patient,161,0,75
+AE-00055,2023-02-04,DrugGamma 25mg,Abdominal Pain,Moderate,Recovering,31-45,Male,Canada,Pharmacist,28,1,100
+AE-00056,2021-08-23,DrugAlpha 50mg,Hypertension,Severe,Recovered,61-75,Male,France,Physician,136,1,200
+AE-00057,2023-07-11,DrugDelta 200mg,Fatigue,Mild,Recovered,61-75,Male,Canada,Other HCP,1,0,25
+AE-00058,2023-06-20,DrugBeta 100mg,Fatigue,Moderate,Recovering,75+,Female,France,Other HCP,165,1,150
+AE-00059,2022-01-10,DrugDelta 200mg,Vomiting,Moderate,Recovering,61-75,Female,UK,Other HCP,63,1,50
+AE-00060,2023-03-28,DrugBeta 100mg,Dizziness,Mild,Not Recovered,46-60,Female,France,Pharmacist,22,0,100
+AE-00061,2021-01-28,DrugBeta 100mg,Vomiting,Severe,Recovering,18-30,Male,UK,Patient,70,0,75
+AE-00062,2023-12-13,DrugDelta 200mg,Abdominal Pain,Moderate,Unknown,75+,Female,Australia,Physician,125,0,25
+AE-00063,2020-05-22,DrugEpsilon 75mg,Bradycardia,Mild,Recovered,46-60,Female,USA,Manufacturer,149,0,50
+AE-00064,2020-04-03,DrugBeta 100mg,Bradycardia,Moderate,Recovered,31-45,Female,Canada,Patient,96,0,25
+AE-00065,2023-09-16,DrugBeta 100mg,Dizziness,Moderate,Recovered,18-30,Female,Japan,Pharmacist,163,0,200
+AE-00066,2021-04-11,DrugDelta 200mg,Abdominal Pain,Moderate,Recovered,61-75,Male,Australia,Patient,79,0,150
+AE-00067,2021-08-15,DrugBeta 100mg,Dizziness,Moderate,Not Recovered,18-30,Female,Australia,Patient,5,0,75
+AE-00068,2020-06-12,DrugBeta 100mg,Headache,Moderate,Recovered,31-45,Male,France,Pharmacist,60,1,25
+AE-00069,2021-04-21,DrugDelta 200mg,Bradycardia,Severe,Not Recovered,75+,Male,UK,Other HCP,120,0,100
+AE-00070,2020-07-25,DrugDelta 200mg,Fatigue,Mild,Recovered,75+,Female,Germany,Other HCP,46,1,200
+AE-00071,2022-02-17,DrugAlpha 50mg,Insomnia,Mild,Recovering,75+,Female,Canada,Physician,178,0,200
+AE-00072,2021-07-23,DrugEpsilon 75mg,Hypertension,Mild,Recovering,61-75,Female,Australia,Physician,176,0,75
+AE-00073,2022-07-17,DrugEpsilon 75mg,Abdominal Pain,Severe,Recovered,46-60,Female,France,Other HCP,134,1,200
+AE-00074,2023-07-25,DrugBeta 100mg,Nausea,Mild,Recovering,46-60,Female,India,Manufacturer,56,0,100
+AE-00075,2022-01-17,DrugEpsilon 75mg,Dizziness,Severe,Recovered,18-30,Female,USA,Patient,110,0,25
+AE-00076,2020-11-29,DrugBeta 100mg,Hypertension,Moderate,Recovered,61-75,Female,USA,Manufacturer,157,1,75
+AE-00077,2022-01-28,DrugAlpha 50mg,Nausea,Severe,Recovered,75+,Male,Germany,Patient,104,0,200
+AE-00078,2021-12-28,DrugDelta 200mg,Hypertension,Life-threatening,Recovered,75+,Male,UK,Other HCP,77,0,200
+AE-00079,2021-03-05,DrugDelta 200mg,Insomnia,Severe,Recovered,31-45,Male,France,Physician,146,0,100
+AE-00080,2023-10-04,DrugDelta 200mg,Nausea,Severe,Recovering,31-45,Male,Canada,Physician,2,0,150
+AE-00081,2021-06-30,DrugEpsilon 75mg,Vomiting,Moderate,Recovering,75+,Male,UK,Manufacturer,8,0,150
+AE-00082,2023-12-08,DrugAlpha 50mg,Rash,Moderate,Recovering,75+,Male,USA,Physician,75,0,200
+AE-00083,2023-10-31,DrugEpsilon 75mg,Vomiting,Mild,Recovered,61-75,Male,UK,Other HCP,125,1,25
+AE-00084,2023-08-20,DrugEpsilon 75mg,Bradycardia,Mild,Recovering,46-60,Unknown,USA,Manufacturer,38,1,75
+AE-00085,2020-05-26,DrugAlpha 50mg,Rash,Moderate,Recovered,31-45,Male,UK,Patient,176,1,200
+AE-00086,2023-06-01,DrugAlpha 50mg,Vomiting,Moderate,Recovered,46-60,Female,Germany,Physician,27,1,50
+AE-00087,2023-07-24,DrugAlpha 50mg,Rash,Mild,Fatal,61-75,Male,Japan,Pharmacist,20,1,75
+AE-00088,2020-12-16,DrugAlpha 50mg,Rash,Moderate,Recovered,75+,Female,Germany,Physician,140,0,150
+AE-00089,2022-12-29,DrugDelta 200mg,Fatigue,Severe,Recovering,46-60,Male,Germany,Patient,43,1,200
+AE-00090,2021-05-16,DrugGamma 25mg,Dizziness,Moderate,Recovering,75+,Male,Japan,Manufacturer,31,1,100
+AE-00091,2020-11-30,DrugGamma 25mg,Dizziness,Moderate,Recovered,75+,Female,Japan,Patient,91,1,50
+AE-00092,2022-08-04,DrugAlpha 50mg,Fatigue,Severe,Recovered,18-30,Male,Australia,Pharmacist,61,0,200
+AE-00093,2022-02-16,DrugGamma 25mg,Hypertension,Life-threatening,Recovered,46-60,Male,Australia,Other HCP,109,0,25
+AE-00094,2021-07-06,DrugGamma 25mg,Headache,Moderate,Fatal,46-60,Male,France,Physician,91,0,50
+AE-00095,2023-08-03,DrugAlpha 50mg,Hypertension,Severe,Recovered,75+,Male,Canada,Manufacturer,163,1,200
+AE-00096,2023-11-10,DrugGamma 25mg,Nausea,Life-threatening,Recovered,61-75,Male,Canada,Other HCP,95,0,25
+AE-00097,2023-02-14,DrugEpsilon 75mg,Nausea,Severe,Recovered,18-30,Male,France,Patient,143,1,50
+AE-00098,2021-03-25,DrugBeta 100mg,Rash,Mild,Recovering,75+,Female,Germany,Manufacturer,144,0,25
+AE-00099,2023-11-03,DrugBeta 100mg,Vomiting,Moderate,Recovered,31-45,Female,Germany,Other HCP,13,0,25
+AE-00100,2021-10-26,DrugAlpha 50mg,Vomiting,Mild,Recovered,31-45,Female,USA,Manufacturer,113,0,50
+AE-00101,2020-04-24,DrugDelta 200mg,Dizziness,Mild,Recovering,18-30,Male,USA,Pharmacist,35,0,50
+AE-00102,2021-04-14,DrugAlpha 50mg,Abdominal Pain,Moderate,Unknown,61-75,Female,Canada,Pharmacist,149,0,25
+AE-00103,2020-03-06,DrugDelta 200mg,Hypertension,Moderate,Recovered,75+,Male,France,Physician,158,0,150
+AE-00104,2021-10-08,DrugBeta 100mg,Bradycardia,Severe,Recovered,46-60,Male,India,Physician,48,1,50
+AE-00105,2022-04-01,DrugAlpha 50mg,Insomnia,Mild,Recovered,18-30,Female,Australia,Pharmacist,35,0,200
+AE-00106,2021-07-02,DrugEpsilon 75mg,Vomiting,Severe,Recovering,61-75,Male,India,Manufacturer,86,0,75
+AE-00107,2020-05-15,DrugGamma 25mg,Insomnia,Moderate,Recovered,46-60,Male,France,Pharmacist,166,1,100
+AE-00108,2021-03-08,DrugDelta 200mg,Rash,Moderate,Recovering,31-45,Female,USA,Physician,159,1,25
+AE-00109,2023-03-07,DrugGamma 25mg,Insomnia,Severe,Not Recovered,31-45,Female,Canada,Pharmacist,152,1,25
+AE-00110,2021-10-06,DrugGamma 25mg,Bradycardia,Moderate,Not Recovered,46-60,Female,Canada,Pharmacist,114,0,100
+AE-00111,2021-03-11,DrugAlpha 50mg,Fatigue,Mild,Recovered,18-30,Female,USA,Manufacturer,177,1,150
+AE-00112,2023-09-04,DrugGamma 25mg,Bradycardia,Severe,Fatal,31-45,Unknown,India,Other HCP,100,1,100
+AE-00113,2022-10-19,DrugEpsilon 75mg,Insomnia,Mild,Recovering,75+,Male,UK,Physician,160,0,50
+AE-00114,2022-03-21,DrugGamma 25mg,Bradycardia,Mild,Recovering,46-60,Male,UK,Manufacturer,99,0,100
+AE-00115,2023-08-09,DrugAlpha 50mg,Headache,Severe,Recovered,46-60,Male,USA,Pharmacist,3,0,25
+AE-00116,2022-07-28,DrugEpsilon 75mg,Rash,Mild,Unknown,31-45,Male,UK,Pharmacist,85,0,100
+AE-00117,2020-10-19,DrugBeta 100mg,Hypertension,Severe,Recovered,18-30,Male,Japan,Other HCP,125,1,75
+AE-00118,2021-06-26,DrugGamma 25mg,Fatigue,Mild,Recovered,75+,Female,France,Physician,138,0,200
+AE-00119,2020-10-12,DrugAlpha 50mg,Vomiting,Severe,Recovered,18-30,Female,France,Physician,83,1,50
+AE-00120,2021-05-20,DrugBeta 100mg,Nausea,Mild,Recovering,61-75,Female,USA,Patient,25,0,100
+AE-00121,2023-02-23,DrugBeta 100mg,Hypertension,Life-threatening,Recovered,61-75,Male,Germany,Physician,68,0,25
+AE-00122,2023-01-08,DrugDelta 200mg,Nausea,Severe,Recovered,31-45,Female,Australia,Other HCP,61,0,200
+AE-00123,2021-06-22,DrugEpsilon 75mg,Rash,Mild,Recovered,31-45,Female,India,Patient,29,0,50
+AE-00124,2023-04-12,DrugGamma 25mg,Fatigue,Moderate,Recovered,31-45,Female,USA,Patient,127,1,25
+AE-00125,2022-05-27,DrugAlpha 50mg,Dizziness,Life-threatening,Recovering,61-75,Male,UK,Pharmacist,19,1,150
+AE-00126,2023-04-10,DrugDelta 200mg,Vomiting,Moderate,Recovering,18-30,Female,India,Pharmacist,171,0,75
+AE-00127,2022-03-28,DrugEpsilon 75mg,Headache,Mild,Recovered,18-30,Male,Germany,Physician,74,0,150
+AE-00128,2022-01-11,DrugDelta 200mg,Dizziness,Moderate,Recovered,31-45,Male,UK,Patient,61,0,75
+AE-00129,2021-03-25,DrugEpsilon 75mg,Rash,Moderate,Recovering,75+,Male,Canada,Pharmacist,171,1,100
+AE-00130,2020-10-10,DrugEpsilon 75mg,Hypertension,Moderate,Recovered,18-30,Female,Australia,Other HCP,153,0,50
+AE-00131,2022-11-09,DrugGamma 25mg,Headache,Moderate,Recovered,61-75,Female,Japan,Pharmacist,20,0,100
+AE-00132,2022-10-07,DrugEpsilon 75mg,Bradycardia,Moderate,Unknown,46-60,Male,UK,Pharmacist,48,1,75
+AE-00133,2020-07-05,DrugDelta 200mg,Insomnia,Mild,Recovering,46-60,Male,Japan,Patient,87,1,75
+AE-00134,2020-04-06,DrugEpsilon 75mg,Headache,Moderate,Recovered,46-60,Male,India,Patient,152,0,75
+AE-00135,2020-08-12,DrugGamma 25mg,Rash,Moderate,Recovering,75+,Male,Japan,Manufacturer,139,0,200
+AE-00136,2020-11-09,DrugGamma 25mg,Abdominal Pain,Mild,Recovered,31-45,Male,India,Other HCP,110,1,25
+AE-00137,2023-07-09,DrugDelta 200mg,Insomnia,Severe,Recovering,61-75,Male,India,Patient,28,1,50
+AE-00138,2020-11-23,DrugBeta 100mg,Nausea,Moderate,Recovered,75+,Female,India,Physician,59,0,100
+AE-00139,2023-10-25,DrugBeta 100mg,Vomiting,Moderate,Recovered,61-75,Male,India,Other HCP,133,1,100
+AE-00140,2022-05-14,DrugEpsilon 75mg,Nausea,Severe,Recovered,61-75,Male,India,Other HCP,51,1,150
+AE-00141,2023-05-06,DrugAlpha 50mg,Headache,Moderate,Unknown,31-45,Male,UK,Patient,149,0,75
+AE-00142,2020-05-10,DrugEpsilon 75mg,Nausea,Severe,Not Recovered,46-60,Female,India,Other HCP,12,0,75
+AE-00143,2022-02-27,DrugDelta 200mg,Rash,Moderate,Recovered,31-45,Female,UK,Patient,50,0,75
+AE-00144,2022-02-20,DrugDelta 200mg,Bradycardia,Mild,Recovered,75+,Female,India,Pharmacist,132,1,100
+AE-00145,2023-05-05,DrugDelta 200mg,Hypertension,Moderate,Not Recovered,75+,Male,Japan,Manufacturer,113,0,150
+AE-00146,2022-08-16,DrugDelta 200mg,Vomiting,Moderate,Recovered,75+,Female,Canada,Pharmacist,170,1,25
+AE-00147,2022-12-19,DrugDelta 200mg,Nausea,Moderate,Recovered,31-45,Male,India,Patient,166,1,200
+AE-00148,2021-05-29,DrugGamma 25mg,Nausea,Mild,Unknown,61-75,Female,Germany,Patient,153,0,50
+AE-00149,2023-02-07,DrugBeta 100mg,Headache,Mild,Recovered,61-75,Female,India,Pharmacist,14,1,25
+AE-00150,2020-01-24,DrugDelta 200mg,Hypertension,Mild,Recovering,18-30,Female,India,Physician,32,1,100
+AE-00151,2023-10-25,DrugAlpha 50mg,Dizziness,Mild,Unknown,75+,Female,Japan,Physician,139,0,200
+AE-00152,2020-08-22,DrugAlpha 50mg,Nausea,Moderate,Recovered,61-75,Female,Australia,Physician,146,0,200
+AE-00153,2023-10-28,DrugAlpha 50mg,Rash,Mild,Recovered,18-30,Male,France,Patient,155,0,200
+AE-00154,2023-01-04,DrugAlpha 50mg,Abdominal Pain,Moderate,Recovered,61-75,Female,Japan,Other HCP,55,1,75
+AE-00155,2021-06-30,DrugGamma 25mg,Vomiting,Moderate,Not Recovered,75+,Male,Germany,Patient,120,1,50
+AE-00156,2023-08-05,DrugAlpha 50mg,Nausea,Moderate,Fatal,46-60,Female,France,Other HCP,75,0,100
+AE-00157,2021-11-27,DrugDelta 200mg,Rash,Severe,Not Recovered,75+,Male,USA,Pharmacist,21,1,100
+AE-00158,2020-08-16,DrugEpsilon 75mg,Rash,Moderate,Recovered,31-45,Male,USA,Manufacturer,172,0,200
+AE-00159,2021-08-24,DrugAlpha 50mg,Vomiting,Severe,Not Recovered,61-75,Male,Australia,Other HCP,133,0,100
+AE-00160,2022-06-09,DrugGamma 25mg,Dizziness,Moderate,Unknown,61-75,Male,Germany,Physician,87,0,50
+AE-00161,2020-11-19,DrugGamma 25mg,Rash,Mild,Recovering,31-45,Female,Japan,Patient,169,0,50
+AE-00162,2022-07-18,DrugAlpha 50mg,Abdominal Pain,Life-threatening,Unknown,31-45,Female,UK,Pharmacist,59,0,150
+AE-00163,2020-01-07,DrugEpsilon 75mg,Rash,Mild,Not Recovered,46-60,Male,Germany,Physician,89,0,150
+AE-00164,2021-06-23,DrugAlpha 50mg,Rash,Mild,Recovering,61-75,Male,Canada,Pharmacist,150,0,25
+AE-00165,2022-10-22,DrugGamma 25mg,Rash,Severe,Recovering,61-75,Female,France,Manufacturer,83,1,50
+AE-00166,2020-12-31,DrugBeta 100mg,Bradycardia,Mild,Recovered,46-60,Male,France,Patient,65,0,50
+AE-00167,2022-11-05,DrugDelta 200mg,Bradycardia,Severe,Recovered,18-30,Female,India,Patient,64,0,50
+AE-00168,2020-08-05,DrugGamma 25mg,Dizziness,Moderate,Recovering,46-60,Female,USA,Manufacturer,71,0,150
+AE-00169,2023-07-04,DrugAlpha 50mg,Nausea,Severe,Recovered,75+,Female,Australia,Patient,4,1,200
+AE-00170,2021-09-03,DrugDelta 200mg,Rash,Moderate,Fatal,61-75,Female,France,Other HCP,143,0,200
+AE-00171,2023-08-01,DrugAlpha 50mg,Hypertension,Moderate,Unknown,31-45,Male,Germany,Pharmacist,104,0,100
+AE-00172,2022-11-05,DrugAlpha 50mg,Nausea,Severe,Not Recovered,75+,Female,France,Physician,150,1,200
+AE-00173,2023-06-01,DrugBeta 100mg,Dizziness,Mild,Recovered,61-75,Male,Australia,Manufacturer,175,0,75
+AE-00174,2021-02-11,DrugDelta 200mg,Fatigue,Life-threatening,Recovered,46-60,Male,Australia,Other HCP,93,0,150
+AE-00175,2020-11-09,DrugDelta 200mg,Nausea,Mild,Recovered,75+,Female,Australia,Physician,174,1,50
+AE-00176,2022-02-04,DrugBeta 100mg,Nausea,Moderate,Recovering,61-75,Male,Germany,Physician,142,0,200
+AE-00177,2020-11-26,DrugGamma 25mg,Insomnia,Mild,Not Recovered,18-30,Female,UK,Manufacturer,178,0,150
+AE-00178,2023-01-09,DrugAlpha 50mg,Headache,Moderate,Unknown,18-30,Female,India,Other HCP,148,0,200
+AE-00179,2022-12-22,DrugEpsilon 75mg,Insomnia,Mild,Recovered,31-45,Female,USA,Physician,178,0,25
+AE-00180,2020-01-02,DrugAlpha 50mg,Abdominal Pain,Severe,Unknown,61-75,Female,France,Physician,112,0,50
+AE-00181,2023-05-11,DrugAlpha 50mg,Bradycardia,Severe,Fatal,18-30,Male,Germany,Other HCP,161,0,25
+AE-00182,2021-10-25,DrugGamma 25mg,Bradycardia,Life-threatening,Recovered,46-60,Male,Japan,Patient,119,0,50
+AE-00183,2022-09-27,DrugAlpha 50mg,Headache,Mild,Fatal,61-75,Female,USA,Physician,59,0,150
+AE-00184,2020-02-09,DrugBeta 100mg,Vomiting,Moderate,Recovered,46-60,Male,UK,Pharmacist,43,1,100
+AE-00185,2020-08-17,DrugBeta 100mg,Vomiting,Moderate,Recovered,46-60,Female,Germany,Other HCP,12,0,200
+AE-00186,2022-01-13,DrugDelta 200mg,Dizziness,Mild,Recovering,18-30,Female,Canada,Physician,40,0,200
+AE-00187,2021-09-21,DrugEpsilon 75mg,Headache,Mild,Recovered,61-75,Female,Canada,Manufacturer,118,1,75
+AE-00188,2021-05-05,DrugAlpha 50mg,Nausea,Moderate,Recovering,75+,Male,India,Pharmacist,20,1,25
+AE-00189,2020-04-28,DrugAlpha 50mg,Vomiting,Moderate,Recovering,18-30,Male,India,Physician,166,0,200
+AE-00190,2021-05-08,DrugGamma 25mg,Rash,Moderate,Recovering,18-30,Male,UK,Pharmacist,131,1,150
+AE-00191,2023-03-07,DrugBeta 100mg,Hypertension,Moderate,Recovered,61-75,Male,UK,Pharmacist,156,0,100
+AE-00192,2020-06-10,DrugEpsilon 75mg,Nausea,Mild,Recovering,61-75,Female,India,Patient,90,0,150
+AE-00193,2020-06-24,DrugDelta 200mg,Abdominal Pain,Mild,Recovering,46-60,Male,France,Pharmacist,94,1,25
+AE-00194,2022-09-22,DrugBeta 100mg,Rash,Mild,Recovering,61-75,Male,France,Patient,13,0,75
+AE-00195,2020-05-21,DrugDelta 200mg,Rash,Life-threatening,Recovered,46-60,Male,Germany,Other HCP,66,0,200
+AE-00196,2022-12-26,DrugGamma 25mg,Headache,Mild,Recovered,18-30,Female,Japan,Patient,37,0,150
+AE-00197,2020-09-14,DrugGamma 25mg,Dizziness,Mild,Recovering,31-45,Female,Germany,Manufacturer,177,0,50
+AE-00198,2020-09-19,DrugAlpha 50mg,Abdominal Pain,Mild,Recovered,75+,Male,Japan,Physician,66,0,100
+AE-00199,2023-09-13,DrugEpsilon 75mg,Vomiting,Severe,Recovering,18-30,Male,UK,Other HCP,36,1,150
+AE-00200,2022-08-31,DrugDelta 200mg,Headache,Life-threatening,Not Recovered,61-75,Male,USA,Other HCP,26,0,100
+AE-00201,2023-01-30,DrugBeta 100mg,Vomiting,Severe,Recovering,75+,Male,Germany,Manufacturer,75,1,200
+AE-00202,2020-12-04,DrugGamma 25mg,Headache,Moderate,Recovering,31-45,Female,Germany,Patient,108,0,50
+AE-00203,2021-06-26,DrugAlpha 50mg,Headache,Moderate,Unknown,31-45,Female,Japan,Physician,168,1,75
+AE-00204,2022-12-16,DrugAlpha 50mg,Headache,Mild,Not Recovered,46-60,Male,Australia,Patient,43,1,75
+AE-00205,2023-05-27,DrugDelta 200mg,Dizziness,Life-threatening,Unknown,75+,Male,UK,Pharmacist,150,1,50
+AE-00206,2022-05-16,DrugGamma 25mg,Headache,Severe,Not Recovered,46-60,Unknown,UK,Patient,148,0,100
+AE-00207,2021-03-09,DrugEpsilon 75mg,Fatigue,Moderate,Recovered,18-30,Male,Canada,Other HCP,8,0,200
+AE-00208,2023-01-09,DrugGamma 25mg,Hypertension,Severe,Recovered,75+,Female,Australia,Physician,29,0,150
+AE-00209,2023-11-13,DrugDelta 200mg,Vomiting,Moderate,Recovering,18-30,Male,Japan,Patient,40,1,50
+AE-00210,2021-02-15,DrugDelta 200mg,Nausea,Moderate,Recovered,46-60,Female,UK,Physician,158,1,25
+AE-00211,2023-12-31,DrugGamma 25mg,Insomnia,Life-threatening,Recovered,75+,Male,Australia,Physician,128,0,100
+AE-00212,2021-09-30,DrugDelta 200mg,Abdominal Pain,Severe,Recovered,46-60,Female,India,Pharmacist,84,0,75
+AE-00213,2022-03-28,DrugGamma 25mg,Bradycardia,Moderate,Recovering,75+,Female,Australia,Pharmacist,116,0,50
+AE-00214,2023-10-07,DrugBeta 100mg,Dizziness,Moderate,Not Recovered,46-60,Male,France,Other HCP,144,1,75
+AE-00215,2023-08-23,DrugGamma 25mg,Nausea,Mild,Not Recovered,31-45,Male,Canada,Manufacturer,174,0,100
+AE-00216,2022-02-03,DrugGamma 25mg,Rash,Moderate,Recovering,46-60,Male,India,Physician,62,1,75
+AE-00217,2022-06-16,DrugDelta 200mg,Fatigue,Mild,Not Recovered,31-45,Male,USA,Manufacturer,7,1,50
+AE-00218,2022-11-25,DrugDelta 200mg,Bradycardia,Moderate,Recovered,46-60,Male,Germany,Other HCP,45,0,100
+AE-00219,2022-07-13,DrugAlpha 50mg,Insomnia,Life-threatening,Fatal,75+,Male,Canada,Physician,176,0,25
+AE-00220,2020-09-04,DrugAlpha 50mg,Nausea,Moderate,Recovered,75+,Female,USA,Physician,155,0,50
+AE-00221,2021-05-22,DrugBeta 100mg,Bradycardia,Moderate,Unknown,75+,Male,Germany,Manufacturer,88,0,150
+AE-00222,2021-04-05,DrugAlpha 50mg,Nausea,Mild,Recovering,61-75,Male,France,Patient,73,0,200
+AE-00223,2020-05-11,DrugGamma 25mg,Fatigue,Mild,Recovered,18-30,Female,Australia,Pharmacist,163,0,50
+AE-00224,2021-11-23,DrugDelta 200mg,Insomnia,Moderate,Recovered,75+,Male,UK,Patient,179,1,100
+AE-00225,2020-02-13,DrugAlpha 50mg,Rash,Mild,Recovered,31-45,Female,India,Manufacturer,37,0,200
+AE-00226,2023-04-19,DrugAlpha 50mg,Headache,Mild,Recovered,75+,Male,Japan,Pharmacist,119,0,50
+AE-00227,2023-02-08,DrugBeta 100mg,Vomiting,Moderate,Recovered,61-75,Female,India,Patient,57,1,25
+AE-00228,2021-04-16,DrugBeta 100mg,Rash,Severe,Recovering,31-45,Female,France,Pharmacist,8,1,25
+AE-00229,2023-04-20,DrugGamma 25mg,Headache,Moderate,Recovering,61-75,Female,USA,Physician,95,0,150
+AE-00230,2021-03-27,DrugDelta 200mg,Dizziness,Mild,Recovering,31-45,Unknown,Japan,Patient,117,0,75
+AE-00231,2020-01-15,DrugBeta 100mg,Hypertension,Moderate,Unknown,46-60,Male,UK,Pharmacist,110,0,200
+AE-00232,2020-05-25,DrugAlpha 50mg,Abdominal Pain,Moderate,Recovering,18-30,Female,France,Pharmacist,20,1,100
+AE-00233,2023-12-20,DrugDelta 200mg,Abdominal Pain,Moderate,Recovering,18-30,Male,Japan,Pharmacist,124,1,100
+AE-00234,2023-07-16,DrugDelta 200mg,Vomiting,Moderate,Recovered,61-75,Male,France,Patient,53,1,75
+AE-00235,2020-04-30,DrugAlpha 50mg,Insomnia,Mild,Not Recovered,18-30,Male,Australia,Other HCP,119,0,25
+AE-00236,2021-04-13,DrugBeta 100mg,Fatigue,Moderate,Recovered,61-75,Female,France,Patient,12,1,25
+AE-00237,2020-05-18,DrugAlpha 50mg,Insomnia,Moderate,Unknown,61-75,Male,UK,Manufacturer,177,0,50
+AE-00238,2020-03-05,DrugDelta 200mg,Fatigue,Severe,Not Recovered,61-75,Female,Canada,Patient,17,0,150
+AE-00239,2021-11-07,DrugEpsilon 75mg,Insomnia,Moderate,Recovering,18-30,Female,Germany,Pharmacist,64,0,200
+AE-00240,2020-05-25,DrugEpsilon 75mg,Hypertension,Moderate,Recovered,61-75,Female,Japan,Physician,42,0,150
+AE-00241,2022-11-18,DrugGamma 25mg,Dizziness,Moderate,Fatal,18-30,Female,Australia,Patient,94,0,150
+AE-00242,2021-05-02,DrugAlpha 50mg,Dizziness,Moderate,Not Recovered,61-75,Male,UK,Patient,157,1,50
+AE-00243,2021-07-24,DrugAlpha 50mg,Headache,Severe,Recovered,75+,Male,France,Pharmacist,147,1,150
+AE-00244,2023-10-02,DrugGamma 25mg,Bradycardia,Moderate,Recovered,61-75,Male,Australia,Physician,11,0,75
+AE-00245,2022-09-21,DrugGamma 25mg,Dizziness,Moderate,Not Recovered,31-45,Male,UK,Physician,98,0,50
+AE-00246,2021-03-14,DrugGamma 25mg,Dizziness,Moderate,Recovered,61-75,Male,Canada,Manufacturer,178,0,75
+AE-00247,2023-01-09,DrugDelta 200mg,Rash,Moderate,Unknown,46-60,Male,Australia,Patient,71,0,50
+AE-00248,2020-09-27,DrugAlpha 50mg,Rash,Moderate,Recovered,61-75,Male,Australia,Physician,108,0,150
+AE-00249,2023-03-15,DrugDelta 200mg,Headache,Severe,Recovered,31-45,Female,Germany,Physician,58,1,75
+AE-00250,2023-03-26,DrugGamma 25mg,Bradycardia,Moderate,Not Recovered,31-45,Female,India,Other HCP,34,0,75
+AE-00251,2022-08-26,DrugAlpha 50mg,Vomiting,Moderate,Recovered,18-30,Male,Japan,Other HCP,20,0,75
+AE-00252,2021-05-12,DrugDelta 200mg,Rash,Life-threatening,Recovering,75+,Female,Germany,Physician,50,0,50
+AE-00253,2022-08-26,DrugDelta 200mg,Vomiting,Mild,Recovered,61-75,Male,USA,Manufacturer,102,1,100
+AE-00254,2022-04-13,DrugGamma 25mg,Nausea,Mild,Recovered,18-30,Male,Japan,Physician,138,1,150
+AE-00255,2021-01-24,DrugAlpha 50mg,Rash,Mild,Recovering,75+,Female,Germany,Pharmacist,160,1,75
+AE-00256,2020-07-12,DrugGamma 25mg,Hypertension,Severe,Recovering,61-75,Female,France,Patient,52,1,200
+AE-00257,2020-07-17,DrugAlpha 50mg,Bradycardia,Mild,Recovering,46-60,Male,Japan,Manufacturer,15,0,100
+AE-00258,2023-09-11,DrugEpsilon 75mg,Headache,Mild,Not Recovered,61-75,Unknown,Japan,Pharmacist,84,0,200
+AE-00259,2022-06-01,DrugBeta 100mg,Nausea,Mild,Recovering,31-45,Female,UK,Manufacturer,131,1,150
+AE-00260,2021-12-26,DrugBeta 100mg,Bradycardia,Mild,Recovered,31-45,Female,France,Pharmacist,37,0,150
+AE-00261,2022-05-17,DrugBeta 100mg,Hypertension,Mild,Recovered,46-60,Female,USA,Patient,126,0,75
+AE-00262,2022-04-21,DrugGamma 25mg,Bradycardia,Moderate,Unknown,18-30,Female,India,Patient,40,0,75
+AE-00263,2022-08-14,DrugEpsilon 75mg,Hypertension,Moderate,Not Recovered,75+,Male,Australia,Other HCP,72,0,50
+AE-00264,2020-04-20,DrugAlpha 50mg,Hypertension,Mild,Recovering,61-75,Male,Canada,Pharmacist,40,0,100
+AE-00265,2023-10-11,DrugDelta 200mg,Vomiting,Mild,Recovered,31-45,Male,Germany,Other HCP,56,0,100
+AE-00266,2023-08-31,DrugAlpha 50mg,Insomnia,Mild,Recovered,18-30,Male,UK,Pharmacist,151,1,75
+AE-00267,2023-08-16,DrugDelta 200mg,Nausea,Mild,Not Recovered,46-60,Female,Germany,Other HCP,104,0,150
+AE-00268,2020-07-20,DrugAlpha 50mg,Bradycardia,Moderate,Fatal,31-45,Male,USA,Patient,139,0,75
+AE-00269,2020-05-04,DrugEpsilon 75mg,Fatigue,Moderate,Recovering,46-60,Female,Australia,Manufacturer,110,0,150
+AE-00270,2022-04-04,DrugDelta 200mg,Nausea,Mild,Not Recovered,61-75,Female,USA,Other HCP,136,0,150
+AE-00271,2021-11-25,DrugGamma 25mg,Insomnia,Moderate,Not Recovered,75+,Female,Japan,Pharmacist,93,0,75
+AE-00272,2020-08-11,DrugAlpha 50mg,Nausea,Mild,Recovered,31-45,Female,Canada,Pharmacist,94,0,25
+AE-00273,2021-05-24,DrugAlpha 50mg,Dizziness,Severe,Recovered,31-45,Female,USA,Patient,56,0,100
+AE-00274,2021-01-27,DrugDelta 200mg,Fatigue,Moderate,Recovered,61-75,Male,Germany,Pharmacist,60,0,200
+AE-00275,2021-01-24,DrugGamma 25mg,Insomnia,Moderate,Recovered,18-30,Female,France,Physician,138,0,150
+AE-00276,2023-01-03,DrugGamma 25mg,Vomiting,Mild,Fatal,75+,Male,France,Manufacturer,39,0,150
+AE-00277,2022-07-07,DrugEpsilon 75mg,Bradycardia,Severe,Recovered,31-45,Female,Japan,Other HCP,28,0,25
+AE-00278,2020-10-14,DrugGamma 25mg,Abdominal Pain,Mild,Recovering,75+,Male,India,Manufacturer,49,0,200
+AE-00279,2022-05-14,DrugGamma 25mg,Insomnia,Mild,Recovered,31-45,Female,Germany,Patient,164,0,50
+AE-00280,2021-01-10,DrugGamma 25mg,Headache,Mild,Recovered,75+,Female,Germany,Other HCP,125,1,25
+AE-00281,2021-07-24,DrugBeta 100mg,Bradycardia,Mild,Recovered,46-60,Male,USA,Other HCP,13,0,200
+AE-00282,2022-08-05,DrugEpsilon 75mg,Insomnia,Life-threatening,Recovered,31-45,Male,Canada,Physician,36,0,25
+AE-00283,2021-05-26,DrugAlpha 50mg,Dizziness,Severe,Recovering,75+,Unknown,Germany,Patient,101,0,150
+AE-00284,2020-06-03,DrugDelta 200mg,Abdominal Pain,Mild,Recovered,18-30,Female,UK,Pharmacist,26,1,100
+AE-00285,2022-06-26,DrugAlpha 50mg,Dizziness,Moderate,Recovering,46-60,Female,India,Physician,86,1,25
+AE-00286,2023-02-01,DrugEpsilon 75mg,Abdominal Pain,Life-threatening,Recovered,46-60,Female,USA,Physician,4,1,50
+AE-00287,2020-07-19,DrugDelta 200mg,Headache,Severe,Recovered,18-30,Male,UK,Manufacturer,82,1,75
+AE-00288,2020-04-13,DrugEpsilon 75mg,Bradycardia,Moderate,Recovered,75+,Male,Japan,Manufacturer,166,0,200
+AE-00289,2023-08-28,DrugGamma 25mg,Vomiting,Severe,Recovering,61-75,Male,France,Manufacturer,127,1,25
+AE-00290,2023-01-12,DrugDelta 200mg,Dizziness,Life-threatening,Recovering,18-30,Female,Japan,Physician,88,0,25
+AE-00291,2020-01-31,DrugGamma 25mg,Dizziness,Moderate,Recovered,75+,Male,France,Pharmacist,127,0,50
+AE-00292,2020-07-10,DrugAlpha 50mg,Hypertension,Mild,Recovered,18-30,Female,Japan,Other HCP,120,0,100
+AE-00293,2021-04-29,DrugAlpha 50mg,Abdominal Pain,Moderate,Not Recovered,18-30,Female,Germany,Manufacturer,22,0,25
+AE-00294,2020-12-06,DrugDelta 200mg,Rash,Severe,Recovered,31-45,Female,UK,Pharmacist,130,1,25
+AE-00295,2022-04-12,DrugDelta 200mg,Bradycardia,Mild,Recovered,75+,Female,France,Patient,31,0,100
+AE-00296,2022-09-21,DrugEpsilon 75mg,Abdominal Pain,Severe,Not Recovered,61-75,Unknown,USA,Manufacturer,119,1,50
+AE-00297,2022-09-12,DrugEpsilon 75mg,Hypertension,Mild,Recovering,31-45,Male,UK,Other HCP,11,0,200
+AE-00298,2021-03-13,DrugGamma 25mg,Nausea,Mild,Recovered,18-30,Female,USA,Patient,46,0,200
+AE-00299,2022-04-01,DrugDelta 200mg,Abdominal Pain,Mild,Unknown,18-30,Female,UK,Patient,96,0,25
+AE-00300,2020-04-30,DrugAlpha 50mg,Vomiting,Mild,Not Recovered,18-30,Female,UK,Other HCP,10,0,100
+AE-00301,2020-12-03,DrugEpsilon 75mg,Bradycardia,Life-threatening,Recovered,75+,Female,Japan,Manufacturer,168,1,25
+AE-00302,2022-02-15,DrugEpsilon 75mg,Hypertension,Severe,Recovering,75+,Male,France,Physician,128,0,75
+AE-00303,2020-01-05,DrugAlpha 50mg,Nausea,Severe,Recovering,31-45,Male,France,Other HCP,152,0,200
+AE-00304,2022-03-10,DrugEpsilon 75mg,Fatigue,Moderate,Recovered,61-75,Female,Canada,Other HCP,99,1,150
+AE-00305,2021-06-27,DrugGamma 25mg,Hypertension,Mild,Recovered,31-45,Male,UK,Other HCP,172,0,75
+AE-00306,2022-07-20,DrugDelta 200mg,Fatigue,Moderate,Recovered,46-60,Female,Germany,Patient,112,1,25
+AE-00307,2021-08-07,DrugAlpha 50mg,Bradycardia,Moderate,Recovering,18-30,Female,Germany,Pharmacist,60,0,50
+AE-00308,2022-05-16,DrugDelta 200mg,Dizziness,Moderate,Recovered,18-30,Male,USA,Physician,87,0,200
+AE-00309,2023-11-27,DrugEpsilon 75mg,Hypertension,Mild,Not Recovered,18-30,Female,USA,Manufacturer,145,0,150
+AE-00310,2023-02-12,DrugEpsilon 75mg,Headache,Moderate,Recovering,31-45,Male,Japan,Manufacturer,65,0,75
+AE-00311,2023-09-17,DrugAlpha 50mg,Fatigue,Moderate,Recovered,31-45,Female,UK,Pharmacist,57,0,200
+AE-00312,2022-09-23,DrugGamma 25mg,Vomiting,Life-threatening,Recovering,18-30,Female,USA,Other HCP,106,1,100
+AE-00313,2020-11-13,DrugBeta 100mg,Headache,Severe,Recovered,31-45,Female,USA,Physician,9,1,50
+AE-00314,2021-01-23,DrugAlpha 50mg,Insomnia,Moderate,Recovering,75+,Male,India,Manufacturer,22,1,75
+AE-00315,2021-08-30,DrugBeta 100mg,Insomnia,Moderate,Recovering,75+,Male,UK,Manufacturer,141,0,100
+AE-00316,2021-03-21,DrugBeta 100mg,Nausea,Moderate,Recovered,31-45,Female,Australia,Other HCP,89,0,25
+AE-00317,2020-04-29,DrugGamma 25mg,Dizziness,Mild,Recovered,18-30,Female,Japan,Pharmacist,176,0,100
+AE-00318,2023-04-01,DrugBeta 100mg,Bradycardia,Severe,Recovered,31-45,Female,USA,Physician,18,0,75
+AE-00319,2023-01-15,DrugBeta 100mg,Hypertension,Severe,Recovered,31-45,Male,Japan,Pharmacist,115,1,75
+AE-00320,2020-05-04,DrugGamma 25mg,Rash,Moderate,Recovered,31-45,Male,France,Pharmacist,168,0,25
+AE-00321,2021-10-04,DrugBeta 100mg,Vomiting,Mild,Recovered,46-60,Male,Japan,Physician,145,0,100
+AE-00322,2020-04-27,DrugBeta 100mg,Fatigue,Mild,Unknown,75+,Female,Australia,Physician,143,0,100
+AE-00323,2020-04-12,DrugBeta 100mg,Bradycardia,Moderate,Recovered,61-75,Male,Germany,Manufacturer,106,1,25
+AE-00324,2023-04-11,DrugAlpha 50mg,Headache,Mild,Recovered,61-75,Male,Australia,Manufacturer,15,0,100
+AE-00325,2022-09-03,DrugAlpha 50mg,Insomnia,Severe,Recovering,46-60,Female,Germany,Physician,63,0,200
+AE-00326,2022-10-26,DrugAlpha 50mg,Vomiting,Mild,Recovered,31-45,Male,Japan,Patient,167,0,25
+AE-00327,2022-12-23,DrugGamma 25mg,Rash,Mild,Unknown,46-60,Unknown,Germany,Manufacturer,13,0,50
+AE-00328,2020-11-18,DrugEpsilon 75mg,Hypertension,Severe,Recovering,46-60,Female,France,Patient,81,0,75
+AE-00329,2020-04-26,DrugBeta 100mg,Nausea,Moderate,Not Recovered,18-30,Female,UK,Physician,32,0,50
+AE-00330,2022-11-06,DrugBeta 100mg,Rash,Mild,Recovered,75+,Male,Germany,Manufacturer,137,1,200
+AE-00331,2020-06-13,DrugGamma 25mg,Vomiting,Mild,Recovered,61-75,Male,Germany,Pharmacist,40,0,200
+AE-00332,2021-01-15,DrugBeta 100mg,Rash,Mild,Recovered,31-45,Female,Japan,Physician,148,1,150
+AE-00333,2020-05-20,DrugAlpha 50mg,Vomiting,Moderate,Not Recovered,61-75,Female,France,Other HCP,82,1,150
+AE-00334,2023-05-03,DrugEpsilon 75mg,Vomiting,Mild,Recovered,61-75,Female,Canada,Patient,77,1,150
+AE-00335,2020-05-19,DrugDelta 200mg,Abdominal Pain,Moderate,Recovered,75+,Male,Canada,Physician,76,0,25
+AE-00336,2023-10-14,DrugBeta 100mg,Fatigue,Life-threatening,Unknown,61-75,Female,Canada,Physician,172,0,100
+AE-00337,2021-04-26,DrugAlpha 50mg,Insomnia,Mild,Recovered,61-75,Female,Canada,Manufacturer,38,1,200
+AE-00338,2022-04-06,DrugDelta 200mg,Abdominal Pain,Severe,Recovered,46-60,Female,UK,Manufacturer,71,1,50
+AE-00339,2020-09-02,DrugEpsilon 75mg,Hypertension,Life-threatening,Recovered,75+,Female,Australia,Manufacturer,48,0,50
+AE-00340,2023-03-12,DrugDelta 200mg,Abdominal Pain,Mild,Unknown,18-30,Female,Japan,Other HCP,18,1,50
+AE-00341,2021-05-19,DrugAlpha 50mg,Dizziness,Severe,Recovered,31-45,Female,Japan,Manufacturer,144,0,50
+AE-00342,2023-03-31,DrugDelta 200mg,Dizziness,Moderate,Not Recovered,61-75,Male,India,Physician,39,0,150
+AE-00343,2023-05-02,DrugGamma 25mg,Insomnia,Severe,Not Recovered,31-45,Female,France,Manufacturer,89,0,50
+AE-00344,2020-03-22,DrugDelta 200mg,Rash,Moderate,Recovered,18-30,Male,Canada,Pharmacist,62,0,100
+AE-00345,2023-06-22,DrugBeta 100mg,Fatigue,Moderate,Recovering,31-45,Male,UK,Manufacturer,141,0,150
+AE-00346,2020-06-16,DrugBeta 100mg,Insomnia,Moderate,Recovered,18-30,Male,France,Other HCP,109,1,50
+AE-00347,2022-05-08,DrugGamma 25mg,Vomiting,Severe,Recovered,46-60,Male,Canada,Pharmacist,81,0,25
+AE-00348,2023-09-08,DrugAlpha 50mg,Headache,Moderate,Not Recovered,61-75,Male,UK,Physician,134,0,75
+AE-00349,2023-04-10,DrugBeta 100mg,Fatigue,Moderate,Fatal,18-30,Male,France,Physician,77,0,75
+AE-00350,2023-03-03,DrugEpsilon 75mg,Fatigue,Severe,Recovering,31-45,Female,Japan,Patient,90,0,75
+AE-00351,2022-12-06,DrugBeta 100mg,Vomiting,Mild,Recovering,61-75,Female,Japan,Pharmacist,14,0,150
+AE-00352,2021-10-09,DrugBeta 100mg,Vomiting,Mild,Recovered,46-60,Male,Australia,Patient,95,1,50
+AE-00353,2021-06-18,DrugAlpha 50mg,Nausea,Mild,Recovered,61-75,Female,USA,Pharmacist,54,1,200
+AE-00354,2021-02-22,DrugDelta 200mg,Insomnia,Mild,Recovered,18-30,Female,Australia,Pharmacist,132,1,200
+AE-00355,2023-10-03,DrugBeta 100mg,Vomiting,Mild,Recovered,46-60,Male,Germany,Other HCP,39,1,200
+AE-00356,2021-10-05,DrugGamma 25mg,Dizziness,Severe,Recovered,31-45,Male,Australia,Patient,72,0,150
+AE-00357,2021-05-03,DrugDelta 200mg,Hypertension,Mild,Recovered,46-60,Female,Canada,Other HCP,25,0,100
+AE-00358,2021-06-27,DrugEpsilon 75mg,Headache,Moderate,Recovered,46-60,Female,India,Pharmacist,77,0,25
+AE-00359,2022-03-21,DrugAlpha 50mg,Insomnia,Mild,Recovered,75+,Female,France,Physician,160,0,25
+AE-00360,2020-09-25,DrugEpsilon 75mg,Bradycardia,Severe,Recovering,46-60,Male,India,Pharmacist,166,1,75
+AE-00361,2023-10-07,DrugDelta 200mg,Dizziness,Life-threatening,Not Recovered,46-60,Male,USA,Other HCP,120,0,75
+AE-00362,2023-08-14,DrugDelta 200mg,Rash,Moderate,Recovered,61-75,Male,Germany,Patient,53,0,200
+AE-00363,2021-09-06,DrugDelta 200mg,Vomiting,Severe,Unknown,31-45,Male,France,Patient,156,1,200
+AE-00364,2022-07-25,DrugEpsilon 75mg,Bradycardia,Mild,Fatal,61-75,Male,UK,Other HCP,131,1,75
+AE-00365,2021-10-09,DrugDelta 200mg,Vomiting,Severe,Recovered,61-75,Male,Canada,Patient,150,1,50
+AE-00366,2020-05-28,DrugEpsilon 75mg,Fatigue,Mild,Not Recovered,18-30,Female,Germany,Manufacturer,96,0,100
+AE-00367,2020-01-20,DrugDelta 200mg,Dizziness,Severe,Recovering,61-75,Female,Japan,Physician,166,0,100
+AE-00368,2022-07-27,DrugGamma 25mg,Fatigue,Mild,Recovering,75+,Male,USA,Physician,72,0,100
+AE-00369,2023-06-26,DrugDelta 200mg,Nausea,Moderate,Recovered,75+,Female,Germany,Physician,62,0,100
+AE-00370,2023-02-27,DrugEpsilon 75mg,Fatigue,Severe,Recovering,18-30,Male,Canada,Patient,6,0,75
+AE-00371,2020-07-23,DrugBeta 100mg,Nausea,Mild,Recovered,31-45,Male,Australia,Patient,32,0,25
+AE-00372,2020-05-30,DrugDelta 200mg,Nausea,Mild,Recovering,31-45,Male,Germany,Pharmacist,99,1,75
+AE-00373,2023-01-06,DrugBeta 100mg,Bradycardia,Mild,Recovering,61-75,Female,Australia,Pharmacist,138,0,100
+AE-00374,2021-03-12,DrugGamma 25mg,Vomiting,Mild,Recovering,61-75,Unknown,Canada,Physician,131,1,75
+AE-00375,2022-11-02,DrugAlpha 50mg,Rash,Moderate,Recovering,61-75,Female,Japan,Manufacturer,76,1,100
+AE-00376,2021-06-27,DrugGamma 25mg,Fatigue,Mild,Not Recovered,31-45,Male,France,Pharmacist,177,0,150
+AE-00377,2020-09-28,DrugDelta 200mg,Dizziness,Mild,Recovered,46-60,Female,UK,Pharmacist,59,1,200
+AE-00378,2021-12-15,DrugBeta 100mg,Nausea,Mild,Recovered,75+,Male,Japan,Patient,31,0,25
+AE-00379,2020-05-20,DrugBeta 100mg,Vomiting,Severe,Not Recovered,46-60,Female,Australia,Manufacturer,93,0,150
+AE-00380,2021-05-15,DrugEpsilon 75mg,Headache,Mild,Recovered,46-60,Female,Australia,Physician,69,1,50
+AE-00381,2022-01-26,DrugBeta 100mg,Insomnia,Mild,Recovered,31-45,Male,UK,Pharmacist,52,0,75
+AE-00382,2021-08-06,DrugEpsilon 75mg,Bradycardia,Mild,Recovered,46-60,Female,France,Manufacturer,89,1,50
+AE-00383,2020-11-19,DrugAlpha 50mg,Rash,Moderate,Recovered,18-30,Female,Germany,Manufacturer,127,0,75
+AE-00384,2022-06-16,DrugDelta 200mg,Abdominal Pain,Severe,Unknown,61-75,Male,UK,Physician,169,0,200
+AE-00385,2023-01-17,DrugEpsilon 75mg,Bradycardia,Mild,Recovering,18-30,Female,USA,Manufacturer,31,0,150
+AE-00386,2023-12-11,DrugAlpha 50mg,Headache,Mild,Unknown,75+,Male,USA,Manufacturer,84,0,200
+AE-00387,2021-09-11,DrugBeta 100mg,Insomnia,Severe,Recovering,61-75,Female,Canada,Manufacturer,127,0,100
+AE-00388,2023-06-06,DrugBeta 100mg,Headache,Severe,Recovered,46-60,Female,Japan,Pharmacist,150,1,200
+AE-00389,2023-09-01,DrugAlpha 50mg,Fatigue,Mild,Recovered,75+,Female,Australia,Physician,132,1,200
+AE-00390,2022-12-19,DrugBeta 100mg,Nausea,Severe,Recovering,61-75,Female,France,Manufacturer,13,1,100
+AE-00391,2020-01-17,DrugAlpha 50mg,Rash,Severe,Recovered,46-60,Female,Canada,Manufacturer,45,0,75
+AE-00392,2023-09-29,DrugEpsilon 75mg,Hypertension,Mild,Fatal,18-30,Male,Japan,Pharmacist,127,1,100
+AE-00393,2023-02-09,DrugEpsilon 75mg,Nausea,Severe,Not Recovered,61-75,Female,Japan,Physician,170,1,150
+AE-00394,2021-09-05,DrugAlpha 50mg,Hypertension,Moderate,Recovered,46-60,Male,Canada,Patient,114,1,200
+AE-00395,2023-09-20,DrugEpsilon 75mg,Insomnia,Moderate,Unknown,18-30,Female,India,Pharmacist,177,0,100
+AE-00396,2020-07-31,DrugEpsilon 75mg,Vomiting,Mild,Not Recovered,75+,Male,Japan,Physician,20,1,200
+AE-00397,2020-10-02,DrugEpsilon 75mg,Abdominal Pain,Mild,Recovering,75+,Male,India,Manufacturer,81,1,150
+AE-00398,2021-06-25,DrugGamma 25mg,Dizziness,Severe,Recovered,75+,Female,USA,Physician,164,0,50
+AE-00399,2020-08-24,DrugDelta 200mg,Nausea,Life-threatening,Recovered,75+,Male,USA,Physician,129,1,150
+AE-00400,2020-08-07,DrugBeta 100mg,Rash,Moderate,Recovering,31-45,Female,Japan,Physician,143,0,25
+AE-00401,2023-02-07,DrugGamma 25mg,Headache,Moderate,Recovered,61-75,Male,USA,Patient,17,0,25
+AE-00402,2020-11-14,DrugEpsilon 75mg,Rash,Moderate,Recovered,61-75,Male,France,Physician,152,0,25
+AE-00403,2021-07-11,DrugAlpha 50mg,Insomnia,Moderate,Not Recovered,31-45,Female,India,Patient,58,0,200
+AE-00404,2021-07-31,DrugEpsilon 75mg,Hypertension,Mild,Recovered,46-60,Male,India,Manufacturer,72,0,75
+AE-00405,2023-05-23,DrugDelta 200mg,Headache,Mild,Recovering,46-60,Male,Japan,Patient,109,1,75
+AE-00406,2021-03-07,DrugEpsilon 75mg,Dizziness,Severe,Unknown,75+,Female,USA,Manufacturer,23,0,75
+AE-00407,2021-12-03,DrugAlpha 50mg,Dizziness,Mild,Fatal,18-30,Male,UK,Manufacturer,174,1,200
+AE-00408,2021-02-20,DrugDelta 200mg,Nausea,Severe,Recovered,46-60,Female,Australia,Patient,72,1,150
+AE-00409,2023-11-08,DrugEpsilon 75mg,Insomnia,Mild,Fatal,18-30,Male,Canada,Pharmacist,8,0,75
+AE-00410,2023-07-22,DrugDelta 200mg,Vomiting,Mild,Recovered,61-75,Male,Canada,Other HCP,59,1,50
+AE-00411,2021-06-24,DrugBeta 100mg,Insomnia,Mild,Recovered,18-30,Female,India,Physician,111,1,25
+AE-00412,2022-11-01,DrugBeta 100mg,Hypertension,Moderate,Recovering,61-75,Male,Japan,Other HCP,13,1,150
+AE-00413,2022-09-27,DrugEpsilon 75mg,Rash,Severe,Recovered,31-45,Male,Japan,Physician,167,1,25
+AE-00414,2021-05-29,DrugDelta 200mg,Dizziness,Mild,Recovered,31-45,Male,France,Physician,156,1,75
+AE-00415,2020-04-14,DrugAlpha 50mg,Rash,Severe,Recovering,75+,Male,Germany,Manufacturer,16,1,150
+AE-00416,2020-07-08,DrugEpsilon 75mg,Rash,Moderate,Recovered,46-60,Female,Australia,Physician,119,0,100
+AE-00417,2023-07-23,DrugBeta 100mg,Rash,Severe,Recovered,75+,Male,Germany,Physician,2,1,50
+AE-00418,2022-05-17,DrugBeta 100mg,Dizziness,Mild,Recovered,61-75,Female,India,Patient,145,1,75
+AE-00419,2021-07-20,DrugEpsilon 75mg,Bradycardia,Severe,Not Recovered,75+,Female,Canada,Other HCP,30,0,75
+AE-00420,2020-03-31,DrugDelta 200mg,Fatigue,Severe,Recovering,18-30,Male,France,Patient,103,0,50
+AE-00421,2020-01-08,DrugBeta 100mg,Hypertension,Mild,Recovered,61-75,Female,France,Physician,13,1,50
+AE-00422,2021-11-14,DrugDelta 200mg,Bradycardia,Mild,Recovered,31-45,Male,France,Manufacturer,96,0,100
+AE-00423,2020-09-24,DrugBeta 100mg,Hypertension,Severe,Recovered,46-60,Female,India,Patient,94,1,75
+AE-00424,2023-07-28,DrugBeta 100mg,Headache,Life-threatening,Recovered,61-75,Male,Germany,Patient,82,0,200
+AE-00425,2021-06-20,DrugGamma 25mg,Insomnia,Mild,Not Recovered,61-75,Female,Canada,Pharmacist,13,0,75
+AE-00426,2020-11-26,DrugBeta 100mg,Insomnia,Moderate,Recovered,18-30,Female,France,Physician,171,0,25
+AE-00427,2022-06-23,DrugAlpha 50mg,Abdominal Pain,Severe,Recovered,46-60,Male,Canada,Manufacturer,94,0,150
+AE-00428,2023-02-03,DrugEpsilon 75mg,Insomnia,Severe,Recovering,31-45,Female,USA,Patient,149,1,150
+AE-00429,2023-12-16,DrugEpsilon 75mg,Dizziness,Life-threatening,Recovering,61-75,Female,Japan,Patient,112,1,25
+AE-00430,2022-05-25,DrugDelta 200mg,Vomiting,Severe,Recovering,61-75,Male,Japan,Manufacturer,55,1,150
+AE-00431,2023-02-22,DrugBeta 100mg,Nausea,Moderate,Recovered,18-30,Male,Canada,Physician,81,0,50
+AE-00432,2020-01-20,DrugAlpha 50mg,Abdominal Pain,Mild,Recovered,75+,Female,UK,Pharmacist,168,0,150
+AE-00433,2020-08-17,DrugDelta 200mg,Nausea,Mild,Recovered,31-45,Female,UK,Patient,116,1,150
+AE-00434,2020-06-03,DrugGamma 25mg,Hypertension,Moderate,Recovered,46-60,Female,India,Pharmacist,143,1,25
+AE-00435,2023-11-16,DrugDelta 200mg,Nausea,Moderate,Recovering,61-75,Female,India,Other HCP,108,0,100
+AE-00436,2020-11-01,DrugDelta 200mg,Nausea,Mild,Not Recovered,61-75,Female,Japan,Physician,53,0,150
+AE-00437,2023-01-22,DrugBeta 100mg,Abdominal Pain,Severe,Not Recovered,31-45,Female,USA,Other HCP,128,0,200
+AE-00438,2020-03-14,DrugGamma 25mg,Headache,Moderate,Not Recovered,75+,Male,Australia,Other HCP,158,1,150
+AE-00439,2022-01-26,DrugDelta 200mg,Rash,Moderate,Recovered,61-75,Male,Germany,Other HCP,161,1,100
+AE-00440,2023-04-07,DrugAlpha 50mg,Insomnia,Moderate,Recovering,31-45,Female,Germany,Physician,57,0,25
+AE-00441,2023-02-05,DrugAlpha 50mg,Insomnia,Moderate,Recovered,18-30,Female,India,Physician,52,0,100
+AE-00442,2020-10-30,DrugEpsilon 75mg,Dizziness,Mild,Recovering,75+,Male,USA,Manufacturer,137,1,25
+AE-00443,2022-05-30,DrugGamma 25mg,Abdominal Pain,Mild,Recovered,46-60,Male,India,Pharmacist,111,0,50
+AE-00444,2020-09-18,DrugGamma 25mg,Dizziness,Mild,Recovered,61-75,Female,Australia,Pharmacist,1,0,25
+AE-00445,2020-03-26,DrugEpsilon 75mg,Vomiting,Mild,Recovered,31-45,Female,Germany,Manufacturer,44,0,50
+AE-00446,2021-09-23,DrugDelta 200mg,Vomiting,Moderate,Unknown,18-30,Male,Canada,Manufacturer,75,0,50
+AE-00447,2022-01-16,DrugGamma 25mg,Dizziness,Moderate,Recovered,46-60,Male,India,Other HCP,98,0,25
+AE-00448,2020-03-22,DrugAlpha 50mg,Abdominal Pain,Mild,Recovered,31-45,Male,France,Manufacturer,9,1,200
+AE-00449,2022-01-02,DrugAlpha 50mg,Dizziness,Severe,Recovered,31-45,Male,Canada,Patient,32,1,75
+AE-00450,2021-03-06,DrugBeta 100mg,Insomnia,Mild,Not Recovered,46-60,Male,Australia,Pharmacist,15,1,25
+AE-00451,2023-10-28,DrugGamma 25mg,Bradycardia,Severe,Recovering,18-30,Male,Australia,Manufacturer,140,1,150
+AE-00452,2021-05-26,DrugDelta 200mg,Fatigue,Life-threatening,Recovering,18-30,Female,India,Patient,136,0,200
+AE-00453,2023-09-27,DrugEpsilon 75mg,Nausea,Mild,Recovered,75+,Male,Japan,Patient,72,1,200
+AE-00454,2020-07-29,DrugEpsilon 75mg,Fatigue,Moderate,Recovering,61-75,Female,India,Patient,155,0,150
+AE-00455,2021-12-25,DrugDelta 200mg,Abdominal Pain,Mild,Recovered,46-60,Female,Japan,Patient,12,1,75
+AE-00456,2023-02-20,DrugBeta 100mg,Fatigue,Moderate,Not Recovered,46-60,Male,Australia,Other HCP,65,1,200
+AE-00457,2022-04-12,DrugEpsilon 75mg,Vomiting,Moderate,Recovering,46-60,Female,USA,Patient,107,0,50
+AE-00458,2023-06-25,DrugGamma 25mg,Hypertension,Mild,Recovered,18-30,Male,Australia,Other HCP,42,0,75
+AE-00459,2020-11-12,DrugBeta 100mg,Nausea,Moderate,Recovered,61-75,Female,Germany,Other HCP,115,0,150
+AE-00460,2021-04-29,DrugGamma 25mg,Rash,Mild,Recovered,75+,Male,Canada,Patient,139,0,75
+AE-00461,2020-11-28,DrugAlpha 50mg,Abdominal Pain,Mild,Recovered,31-45,Female,Canada,Pharmacist,103,0,25
+AE-00462,2020-12-28,DrugBeta 100mg,Nausea,Moderate,Recovered,31-45,Female,UK,Patient,171,1,75
+AE-00463,2022-04-24,DrugEpsilon 75mg,Fatigue,Mild,Recovering,46-60,Male,UK,Patient,95,1,50
+AE-00464,2020-02-20,DrugBeta 100mg,Vomiting,Moderate,Recovered,61-75,Male,Australia,Patient,17,0,25
+AE-00465,2021-01-02,DrugBeta 100mg,Headache,Moderate,Recovered,18-30,Female,Germany,Pharmacist,160,0,100
+AE-00466,2021-11-11,DrugBeta 100mg,Bradycardia,Life-threatening,Recovered,61-75,Female,UK,Physician,85,0,150
+AE-00467,2022-04-23,DrugBeta 100mg,Rash,Mild,Recovered,61-75,Male,Canada,Physician,168,1,150
+AE-00468,2023-10-03,DrugGamma 25mg,Bradycardia,Moderate,Fatal,18-30,Female,India,Other HCP,151,0,75
+AE-00469,2021-05-23,DrugAlpha 50mg,Nausea,Moderate,Recovered,46-60,Male,USA,Other HCP,56,0,200
+AE-00470,2021-06-30,DrugDelta 200mg,Vomiting,Mild,Recovering,61-75,Female,USA,Pharmacist,134,0,25
+AE-00471,2020-11-22,DrugBeta 100mg,Vomiting,Life-threatening,Not Recovered,31-45,Male,Germany,Manufacturer,86,0,100
+AE-00472,2023-12-07,DrugEpsilon 75mg,Fatigue,Moderate,Recovering,18-30,Female,Australia,Physician,178,0,25
+AE-00473,2020-08-09,DrugBeta 100mg,Insomnia,Moderate,Fatal,75+,Male,UK,Other HCP,102,1,150
+AE-00474,2022-02-22,DrugEpsilon 75mg,Fatigue,Severe,Recovered,46-60,Male,India,Physician,165,0,25
+AE-00475,2020-03-20,DrugGamma 25mg,Insomnia,Life-threatening,Unknown,18-30,Male,USA,Pharmacist,54,1,100
+AE-00476,2022-08-21,DrugEpsilon 75mg,Insomnia,Severe,Recovered,75+,Male,USA,Pharmacist,177,0,200
+AE-00477,2021-03-31,DrugDelta 200mg,Rash,Moderate,Recovered,75+,Female,France,Manufacturer,115,1,75
+AE-00478,2021-02-12,DrugAlpha 50mg,Fatigue,Moderate,Recovering,61-75,Male,Australia,Manufacturer,139,1,50
+AE-00479,2022-07-31,DrugEpsilon 75mg,Headache,Mild,Unknown,61-75,Female,France,Pharmacist,88,0,25
+AE-00480,2021-12-17,DrugEpsilon 75mg,Dizziness,Mild,Not Recovered,61-75,Male,Canada,Other HCP,49,0,50
+AE-00481,2021-09-17,DrugAlpha 50mg,Dizziness,Moderate,Recovered,18-30,Male,USA,Physician,149,0,150
+AE-00482,2021-04-11,DrugDelta 200mg,Fatigue,Mild,Recovered,18-30,Male,Germany,Patient,115,1,75
+AE-00483,2021-04-01,DrugBeta 100mg,Fatigue,Moderate,Unknown,46-60,Male,Japan,Manufacturer,63,0,75
+AE-00484,2020-02-18,DrugEpsilon 75mg,Bradycardia,Mild,Recovered,61-75,Male,Japan,Patient,104,1,25
+AE-00485,2023-09-13,DrugAlpha 50mg,Rash,Mild,Not Recovered,75+,Male,India,Other HCP,83,0,200
+AE-00486,2021-01-30,DrugGamma 25mg,Fatigue,Severe,Not Recovered,31-45,Female,USA,Manufacturer,103,1,75
+AE-00487,2022-03-27,DrugAlpha 50mg,Bradycardia,Severe,Recovered,46-60,Male,USA,Patient,156,1,25
+AE-00488,2021-11-03,DrugGamma 25mg,Insomnia,Mild,Recovered,18-30,Female,Canada,Other HCP,17,1,25
+AE-00489,2021-07-24,DrugDelta 200mg,Vomiting,Moderate,Recovered,46-60,Female,USA,Physician,6,0,50
+AE-00490,2020-05-22,DrugBeta 100mg,Vomiting,Severe,Recovered,46-60,Male,Germany,Other HCP,147,0,75
+AE-00491,2021-07-25,DrugAlpha 50mg,Insomnia,Mild,Fatal,46-60,Male,France,Manufacturer,28,1,25
+AE-00492,2021-12-20,DrugEpsilon 75mg,Abdominal Pain,Severe,Recovered,46-60,Female,USA,Pharmacist,38,0,50
+AE-00493,2023-08-06,DrugDelta 200mg,Bradycardia,Mild,Fatal,31-45,Female,USA,Physician,119,0,100
+AE-00494,2022-11-09,DrugAlpha 50mg,Bradycardia,Mild,Recovered,61-75,Female,Canada,Patient,37,0,50
+AE-00495,2022-03-29,DrugEpsilon 75mg,Insomnia,Life-threatening,Unknown,75+,Male,Australia,Manufacturer,115,0,50
+AE-00496,2023-10-23,DrugAlpha 50mg,Headache,Mild,Recovered,46-60,Female,UK,Pharmacist,68,0,25
+AE-00497,2023-01-03,DrugGamma 25mg,Hypertension,Moderate,Recovered,46-60,Female,Australia,Other HCP,177,0,150
+AE-00498,2021-11-09,DrugAlpha 50mg,Nausea,Severe,Recovered,46-60,Female,Canada,Pharmacist,43,0,150
+AE-00499,2020-02-26,DrugAlpha 50mg,Insomnia,Mild,Not Recovered,61-75,Unknown,Australia,Manufacturer,164,1,200
+AE-00500,2020-08-24,DrugAlpha 50mg,Fatigue,Moderate,Recovering,18-30,Male,Canada,Manufacturer,58,1,150
